@@ -10,8 +10,8 @@
 
 ## Versions
 
-* FFNN_v1 : Implementation with Python & Numpy
+- FFNN_v1 : Implementation with Python & Numpy
 
 ## Update Notes
 
-* 21-08-16 : add FFNN.v1(using numpy)
+- 21-08-16 : add FFNN.v1(using numpy)
