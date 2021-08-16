@@ -1,6 +1,6 @@
-# FFNN_implementation
+# NN_implementation
 
-✏ Feed-Forward Neural Network Implementation
+✏ Multi-Layer Feed-Forward Neural Network Implementation
 
 - Line-by-line implementation of multi-layer feed forward neural networks with back propagation.
 
@@ -8,8 +8,8 @@
 
 ## Versions
 
-- FFNN_v1 : Implementation with Python & Numpy
+- NN_v1 : Implementation with Python & Numpy
 
 ## Update Notes
 
-- 21-08-16 : add FFNN.v1
+- 21-08-16 : add NN.v1
