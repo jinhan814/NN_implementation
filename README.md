@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # NN_implementation
 
 ✏ Multi-Layer Feed-Forward Neural Network Implementation
@@ -14,6 +13,3 @@
 ## Update Notes
 
 - 21-08-16 : add NN.v1
-=======
-# NN_implementation
->>>>>>> 0de030d7e5b84c0fd1aab25f794df83a2f00096d
