@@ -1,7 +1,5 @@
 # FFNN_v1
 
-✏ Python implementation of multi-layer feed forward neural networks with back propagation.
-
 - Used NumPy package for matrix operations.
 
 - No optimization is applied.
