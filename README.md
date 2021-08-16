@@ -1,19 +1,17 @@
 # FFNN_implementation
 
-✏ Feed-Forward Neural Network Implementation using Numpy
+✏ Feed-Forward Neural Network Implementation
 
-Python implementation of multi-layer feed forward neural networks with back propagation. No optimization is applied.
+Python implementation of multi-layer feed forward neural networks with back propagation.
 
-The code is based on ["Neural Networks and Deep Learning"](https://github.com/mnielsen/neural-networks-and-deep-learning) by Michael Nielsen.
+No optimization is applied.
 
-## Example code
+All code is based on ["Neural Networks and Deep Learning"](https://github.com/mnielsen/neural-networks-and-deep-learning) by Michael Nielsen.
 
-```
-N = Network([784, 28, 28, 10])
+## Versions
 
-N.SGD(30, 10, 3.0, train_data, test_data = test_data)
-```
+* FFNN_v1 : Implementation with Python & Numpy
 
 ## Update Notes
 
-* 21-08-16 : add implementation using numpy
+* 21-08-16 : add FFNN.v1(using numpy)
