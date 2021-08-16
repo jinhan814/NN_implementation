@@ -1,5 +1,7 @@
 # NN_v1
 
+- Multi-Layer Feed-Forward Neural Network with back propagation
+
 - Used NumPy package for matrix operations.
 
 - No optimization is applied.
