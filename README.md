@@ -8,8 +8,12 @@
 
 ## Version
 
-- NN_v1 : Implementation with Python & Numpy
+- NN_v1 : MLP implemented by Python & Numpy
+
+- NN_v2 : Handwritten Digits Classification implemented by c++
 
 ## Update Note
 
 - 21-08-16 : add NN.v1
+
+- 21-08-17 : add NN.v2
