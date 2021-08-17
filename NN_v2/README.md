@@ -6,7 +6,9 @@
 
 - w and b are initialized by trained w, b of NN_v1 model
 
-- [https://blog.naver.com/jinhan814/222474216381](https://blog.naver.com/jinhan814/222474216381)
+- This code is also can be used for solve [[BOJ 18824] 4차 산업 혁명](https://www.acmicpc.net/problem/18824).
+
+- Blog post : [https://blog.naver.com/jinhan814/222474216381](https://blog.naver.com/jinhan814/222474216381)
 
 ## input example
 
