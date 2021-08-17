@@ -2,11 +2,9 @@
 
 - Handwritten Digits Classification implemented by c++
 
-- used MLP model on NN_v1
+- used MLP model on NN_v1, w and b are initialized by trained w, b of NN_v1 model
 
-- w and b are initialized by trained w, b of NN_v1 model
-
-- This code is also can be used for solve [BOJ 18824](https://www.acmicpc.net/problem/18824).
+- This code is solution code of [BOJ 18824](https://www.acmicpc.net/problem/18824).
 
 - Blog post : [https://blog.naver.com/jinhan814/222474216381](https://blog.naver.com/jinhan814/222474216381)
 
