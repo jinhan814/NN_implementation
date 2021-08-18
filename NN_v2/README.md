@@ -36,9 +36,9 @@ if __name__ == '__main__':
 
 - used same MLP model as NN_v2, w and b are initialized by trained w, b of main.py
 
-- This code is solution code of [BOJ 18824](https://www.acmicpc.net/problem/18824).
+- This code is solution code for [BOJ 18824](https://www.acmicpc.net/problem/18824).
 
-- Blog post : [https://blog.naver.com/jinhan814/222474216381](https://blog.naver.com/jinhan814/222474216381)
+- Blog post : [https://blog.naver.com/jinhan814/222475395350](https://blog.naver.com/jinhan814/222475395350)
 
 #### input example
 
