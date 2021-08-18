@@ -2,7 +2,7 @@
 
 - Multi-Layer Feed-Forward Neural Network with back propagation
 
-- Improve performance from NN_v1
+- Improved performance from NN_v1
 
 - used ReLU activation function
 
