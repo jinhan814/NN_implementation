@@ -8,12 +8,12 @@
 
 ## Version
 
-- NN_v1 : MLP implemented by Python & Numpy
+- NN_v1 : MLP implemented by Python & Numpy (Sigmoid, MSE, No opt)
 
-- NN_v2 : Handwritten Digits Classification implemented by c++
+- NN_v2 : Improve performance from NN_v1 (ReLU, CrossEntropy, He, L2, ...)
 
 ## Update Note
 
 - 21-08-16 : add NN.v1
 
-- 21-08-17 : add NN.v2
+- 21-08-18 : add NN.v2

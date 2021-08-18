@@ -1,14 +1,46 @@
 # NN_v2
 
+- Multi-Layer Feed-Forward Neural Network with back propagation
+
+- Improve performance from NN_v1
+
+- ReLU activation function
+
+- CrossEntropy cost function
+
+- He initialization 
+
+- L2 Regularization
+
+- increased train data : (9000, 1000) -> (50000, 10000)
+
+## Example code
+
+```
+from modules import *
+
+if __name__ == '__main__':
+    train_data = mnist_loader.load_data('../data/train_data_50000.csv')
+    test_data  = mnist_loader.load_data('../data/test_data_10000.csv')
+    N = NN_v2.Network([784, 28, 28, 10])
+    N.SGD(30, 10, 0.03, 0.1, train_data, test_data=test_data)
+```
+
+## Accuracy
+
+- 96.6 ~ 96.9 %
+
+## c++ code
+
 - Handwritten Digits Classification implemented by c++
 
-- used MLP model on NN_v1, w and b are initialized by trained w, b of NN_v1 model
+- used same MLP model as NN_v2, w and b are initialized by trained w, b of main.py
 
 - This code is solution code of [BOJ 18824](https://www.acmicpc.net/problem/18824).
 
 - Blog post : [https://blog.naver.com/jinhan814/222474216381](https://blog.naver.com/jinhan814/222474216381)
 
-## input example
+#### input example
 
 ```
 1
@@ -42,7 +74,7 @@
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 ```
 
-## output example
+#### output example
 
 ```
 9
