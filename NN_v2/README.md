@@ -4,13 +4,13 @@
 
 - Improve performance from NN_v1
 
-- ReLU activation function
+- used ReLU activation function
 
-- CrossEntropy cost function
+- used CrossEntropy cost function
 
-- He initialization 
+- He initialization applied
 
-- L2 Regularization
+- L2 Regularization applied
 
 - increased train data : (9000, 1000) -> (50000, 10000)
 

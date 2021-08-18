@@ -4,6 +4,10 @@
 
 - Used NumPy package for matrix operations.
 
+- used Sigmoid activation function
+
+- used MSE(Mean Squared Error) cost function
+
 - No optimization is applied.
 
 - All code is based on ["Neural Networks and Deep Learning"](https://github.com/mnielsen/neural-networks-and-deep-learning) by Michael Nielsen.
