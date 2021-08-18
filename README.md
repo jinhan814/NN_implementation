@@ -8,9 +8,9 @@
 
 ## Version
 
-- [NN_v1](https://github.com/jinhan814/NN_implementation/tree/main/NN_v1) : MLP implemented by Python & Numpy (Sigmoid, MSE, No opt), 90.1 ~ 91.4% Accuracy
+- [NN_v1](https://github.com/jinhan814/NN_implementation/tree/main/NN_v1) : MLP implemented by Python & Numpy. Sigmoid, MSE, No opt. 90.1 ~ 91.4% Accuracy
 
-- [NN_v2](https://github.com/jinhan814/NN_implementation/tree/main/NN_v2) : Improved performance from NN_v1 (ReLU, CrossEntropy, He, L2), 96.6 ~ 96.9% Accuracy
+- [NN_v2](https://github.com/jinhan814/NN_implementation/tree/main/NN_v2) : Improved performance from NN_v1. ReLU, CrossEntropy, He, L2. 96.6 ~ 96.9% Accuracy
 
 ## Update Note
 
