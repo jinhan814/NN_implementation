@@ -1,6 +1,7 @@
 import numpy as np
 import random
 
+
 class Sigmoid:
     def __call__(self, x):
         return 1. / (1. + np.exp(-x))
