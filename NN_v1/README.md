@@ -29,7 +29,7 @@ if __name__ == '__main__':
 
 - Handwritten Digits Classification implemented by c++
 
-- used same MLP model as NN_v1, w and b are initialized by trained w, b of main.py
+- used same MLP model as NN_v1, w and b are initialized by trained w, b of [main.py](https://github.com/jinhan814/NN_implementation/blob/main/NN_v1/package/main.py)
 
 - This code is solution code for [BOJ 18824](https://www.acmicpc.net/problem/18824).
 
