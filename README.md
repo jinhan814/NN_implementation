@@ -17,3 +17,7 @@
 - 21-08-16 : add NN.v1
 
 - 21-08-18 : add NN.v2
+
+## References.
+
+<a id="1">[1]</a> ["Neural Networks and Deep Learning"](https://github.com/mnielsen/neural-networks-and-deep-learning)
