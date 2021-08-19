@@ -19,6 +19,7 @@ class MSE:
 
 class Network:
     def __init__(self, shape, activation_f=Sigmoid(), cost_f=MSE()):
+        np.random.seed(2048)
         self.shape = shape
         self.w = [np.random.randn(y, x) for x, y in zip(shape[:-1], shape[1:])]
         self.b = [np.random.randn(y, 1) for y in shape[1:]]
@@ -68,7 +69,7 @@ class Network:
 
     def SGD(self, epochs, batch_size, lr, train_data, test_data=None):
         for epoch in range(1, epochs + 1):
-            random.shuffle(train_data)
+            random.Random(epoch).shuffle(train_data)
             batchs = [train_data[i:i + batch_size] for i in range(0, len(train_data), batch_size)]
             for batch in batchs: self.update(batch, lr)
             if test_data: print(f"Epoch : {epoch}, Evaluate : {self.evaluate(test_data)} / {len(test_data)}")

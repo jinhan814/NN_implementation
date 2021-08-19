@@ -100,7 +100,7 @@ class Network:
 
     def SGD(self, epochs, batch_size, lr, lmbda, train_data, test_data=None):
         for epoch in range(1, epochs + 1):
-            np.random.shuffle(train_data)
+            np.random.RandomState(epoch).shuffle(train_data)
             batchs = [train_data[i:i + batch_size] for i in range(0, len(train_data), batch_size)]
             for batch in batchs: self.update(batch, lr, lmbda, len(train_data))
             if test_data:

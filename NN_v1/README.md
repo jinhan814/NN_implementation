@@ -16,14 +16,14 @@
 from modules import *
 
 if __name__ == '__main__':
-    train_data, test_data = mnist_loader.load_data()
+    train_data, test_data = mnist_loader.load_data('../../data/mnist_test.csv')
     N = NN_v1.Network([784, 28, 28, 10])
-    N.SGD(30, 10, 3.0, train_data, test_data = test_data)
+    N.SGD(50, 10, 1.0, train_data, test_data = test_data)
 ```
 
 ## Accuracy
 
-- 90.1 ~ 91.4%
+- 90.1 ~ 91.3% [[code]](https://github.com/jinhan814/NN_implementation/blob/main/NN_v1/NN_v1.ipynb)
 
 ## c++ code
 

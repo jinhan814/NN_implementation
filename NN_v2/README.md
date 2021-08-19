@@ -14,23 +14,25 @@
 
 - increased train data : (9000, 1000) -> (50000, 10000)
 
+- Data Augmentation applied
+
 ## Example code
 
 ```
 from modules import *
 
 if __name__ == '__main__':
-    train_data = mnist_loader.load_data('../data/train_data_50000.csv')
-    test_data  = mnist_loader.load_data('../data/test_data_10000.csv')
+    train_data = mnist_loader.load_data('../../data/train_data_50000.csv')
+    test_data  = mnist_loader.load_data('../../data/test_data_10000.csv')
     N = NN_v2.Network([784, 28, 28, 10])
     N.SGD(30, 10, 0.03, 0.1, train_data, test_data=test_data)
 ```
 
 ## Accuracy
 
-- 96.6 ~ 96.9 %
+- 96.2 ~ 96.4 % [[code]](https://github.com/jinhan814/NN_implementation/blob/main/NN_v2/NN_v2.ipynb)
 
-- 97.4 ~ 97.5 % with Data Augmentation [[code]](https://github.com/jinhan814/NN_implementation/blob/main/NN_v2/NN_v2.ipynb)
+- 97.2 ~ 97.5 % with Data Augmentation [[code]](https://github.com/jinhan814/NN_implementation/blob/master/NN_v2/NN_v2_DataAug.ipynb)
 
 ## c++ code
 
