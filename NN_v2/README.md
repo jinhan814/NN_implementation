@@ -30,6 +30,8 @@ if __name__ == '__main__':
 
 - 96.6 ~ 96.9 %
 
+- 97.4 ~ 97.5 % with Data Augmentation [[code]](https://github.com/jinhan814/NN_implementation/blob/main/NN_v2/NN_v2.ipynb)
+
 ## c++ code
 
 - Handwritten Digits Classification implemented by c++
